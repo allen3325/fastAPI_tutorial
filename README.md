@@ -9,6 +9,6 @@
 ```bash
 # 啟動資料庫以及 pgAdmin
 docker compose up
+# 關掉資料庫 (關掉習慣做，不要只 ctrl + c，不然下次會開不起來)
+docker compose down
 ```
-
-
